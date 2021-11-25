@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Gilroy-Regular';
+  src: url('../assets/fonts/Gilroy/Gilroy-Regular.otf'),
+}
+
+@font-face {
+  font-family: 'Gilroy-Medium';
+  src: url('../assets/fonts/Gilroy/Gilroy-Medium.otf'),
+}
+
+@font-face {
+  font-family: 'Gilroy-Light';
+  src: url('../assets/fonts/Gilroy/Gilroy-Light.otf')
+}
+
+/* @font-face {
+  font-family: 'DIN-Bold';
+  src: url('../assets/fonts/DIN-Bold.otf') format('opentype');
+} */
+
+@font-face {
+  font-family: 'DIN-Bold';
+  src: url('../assets/fonts/DIN-Pro/DINPro-Bold.otf') format('opentype')
+}
+
+@font-face {
+  font-family: 'DIN-Medium';
+  src: url('../assets/fonts/DIN-Pro/DINPro-Medium.otf') format('opentype')
+}
+
+@font-face {
+  font-family: 'DIN-Light';
+  src: url('../assets/fonts/DIN-Pro/DINPro-Regular.otf') format('opentype')
+}
+
+@font-face {
+  font-family: 'courierNewPSMT';
+  src: url('../assets/fonts/courierNewPSMT.otf') format('opentype')
+}

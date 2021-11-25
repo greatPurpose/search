@@ -1,0 +1,20 @@
+.tooltip {
+  z-index: 99999;
+  .tooltip-inner {
+    padding: 8px 12px;
+    max-width: 120px;
+    font-family: Gilroy-Light;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.25;    
+    text-align: left;
+    background-color: #4a4a4a;
+    color: #ffffff;
+
+  }
+  .arrow {
+    color: #4a4a4a;
+    opacity: 0.7;
+
+  }  
+} 

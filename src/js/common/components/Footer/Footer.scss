@@ -1,0 +1,42 @@
+.FooterWrapper {
+  padding: 32px 40px;
+  bottom: 0;
+  // padding-left: 32px;
+  // padding-right: 32px;
+  // width: 100%;
+  position: absolute;
+
+  .absolute {
+    position: absolute;
+  }
+  @media (max-width: 450px) {
+    position: static;
+  }
+
+  p,
+  a {
+    display: inline-block;
+    opacity: 0.45;
+    font-family: Gilroy-Light;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.14;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+  }
+  p {
+    float: left;
+  }
+  a {
+    float: right;
+  }
+  a:hover {
+    color: #0bd080;
+    text-decoration: none;
+    font-family: Gilroy-Medium;
+    opacity: 1;
+  }
+}

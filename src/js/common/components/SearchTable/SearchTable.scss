@@ -1,0 +1,100 @@
+.TableSearchWrapper {
+  margin-bottom: 40px;
+  margin-top: 20px;
+  border-radius: 2px;
+  box-shadow: 3px 9px 15px 0 rgba(0, 0, 0, 0.07);
+  border: solid 1px #ededed;
+  background-color: #ffffff;
+
+  .table-search {
+    border-collapse: collapse;
+    thead tr {
+      th {
+        height: 65px;
+        padding: 17px 10px 17px 18px;
+        border-bottom: solid 1px #ededed;
+        border-top: none;
+        font-family: Gilroy-Medium;
+        font-size: 20px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.2;
+        letter-spacing: normal;
+        text-align: left;
+        color: #4A4A4A;
+        background-color: #ffffff;
+        // cursor: pointer;
+
+        img {
+          margin-left: 13px;
+          cursor: pointer;
+        }
+      }
+    }
+    tbody {
+      
+      td {
+        height: 60px;
+        padding: 12px 10px 10px 14px;
+        border-bottom: solid 1px #ededed;
+        font-family: DIN-Light;
+        font-size: 16px;
+        font-weight: 300;
+        color: #4A4A4A !important;
+
+        .btn-take {
+          width: 90px;
+          height: 30px;
+          border-radius: 2px;
+          font-family: Gilroy-Light;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 1.19;
+          text-align: center;
+          color: #ffffff;          
+          background-color: #d1d1d1;          
+          .loading {
+            width: 20px;
+            height: 20px;
+          }
+        }
+        .disabled {
+          background-color: #d1d1d1;
+        }
+        .enabled {
+          background-color: #0bd080;         
+        }
+        .taken {
+          background-color: #838383;         
+        }
+        .failed {
+          background-color: #fd4848;
+        }
+        .link_etherscan {
+          height: 25px;
+          margin-top: 6px;
+          margin-left: 30px;          
+          font-family: Gilroy-Light;
+          font-size: 12px;
+          font-weight: 500;
+          line-height: 1.25;
+          color: #838383;          
+          text-decoration: none;
+          // text-decoration-color: #838383;          
+        }
+        .button-item {
+          display: flex;
+        }
+      }
+      .tr-no-orders {
+        .td {
+          border-bottom: none;
+        }
+      }
+    }
+  }
+  .no-orders {
+    height: 135px;
+  }
+}

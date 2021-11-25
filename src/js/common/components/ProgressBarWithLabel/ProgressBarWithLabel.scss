@@ -1,0 +1,16 @@
+.div-labelprogress {
+  .progress{
+      height: 11px;
+      border-radius: 5.5px;
+      .progress-bar {
+          background-color: #0bd080;
+          border-radius: 5.5px;
+      }
+  }
+  .danger  {
+      .progress-bar {
+          background-color: #F34830;
+      }
+  }
+
+}

@@ -1,0 +1,5 @@
+{
+  "env": "production",
+  "publicPath": "/",
+  "api_url": "https://search.zaidan.io/api/v1/order"
+}

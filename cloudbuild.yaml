@@ -1,0 +1,22 @@
+steps:
+  - name: node:lts
+    entrypoint: yarn
+    args: ["install"]
+
+  - name: node:lts
+    entrypoint: yarn
+    args: ["run", "build"]
+
+  - name: gcr.io/cloud-builders/gsutil
+    args: [
+        "-m",
+        "rsync",
+        "-r",
+        "-c",
+        "-d",
+        "./docroot",
+        "gs://search.paradigm.market",
+      ]
+
+options: 
+ machineType: "N1_HIGHCPU_8"
